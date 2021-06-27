@@ -1,0 +1,54 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    background-image: url('https://blog.clear.com.br/wp-content/uploads/2018/09/mercado-primario-e-secundario.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  .page-title {
+    color: #fff;
+    margin: 0 0 5px;
+  }
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #1edad2;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20 px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .form-wrapper button:hover {
+    opacity:.8;
+  }
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  .form-wrapper select{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  .resultado{
+      font-size: 20px;
+      color: #fff;
+  }
+  

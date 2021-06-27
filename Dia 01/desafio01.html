@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="desafio01.css">
+        <title>
+            Desafio Imersão Dev - Aula 01
+        </title>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <h1 class="page-title">
+                Desafio Alura - Programa Conversor
+            </h1>
+
+            <p class="page-subtitle">
+                Escolha a operação a ser realizada:
+            </p>
+
+            <div class="form-wrapper">
+
+                <select name="conversao" id="operacao">
+                    <option value="LtD">Libra para Dólar</option>
+                    <option value="CtF">Fahrenheit para Celsius</option>
+                    <option value="PtC">Pés para Centímetros</option>
+                    <option value="LtK">Libras para Quilogramas</option>
+                    <option value="MtK">Milhas para Quilômetros</option>
+                </select>
+                <br>
+                <p class="page-subtitle">
+                    Digite o valor a ser convertido:
+                    <br>
+                </p>
+
+                
+                <input type="text" id="valorC" name="valorC" placeholder="Valor para conversão">        
+            
+                <br>
+                        
+                <button onClick="converter()">Converter</button>
+                
+            </div>
+        </div>
+        <p class="page-subtitle">
+            Valor convertido:
+        </p>
+        <p for="final" id="final" class="resultado"> </p>
+
+        <script src="desafio01.js"></script>
+    </body>
+</html>
